@@ -26,7 +26,6 @@
         requirements: "/opt/{{ APP_NAME }}/requirements.txt"
         virtualenv: "/opt/{{ APP_NAME }}/.venv"
         virtualenv_command: python3 -m venv
-      become_user: "{{ APP_NAME }}"
     - name: "register as a service"
       template:
         src: files/app.service
