@@ -8,3 +8,5 @@ proxy server: priv - 172.31.1.7 public - 3.127.236.224
 to execute -> ansible-playbook setup.yml -i hosts.ini
 
 
+![image](files/itworks.png)
+
